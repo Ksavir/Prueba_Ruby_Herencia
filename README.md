@@ -12,7 +12,7 @@ El código llama a los métodos talk e introduce de cada objeto. Los métodos im
 El código muestra cómo utilizar la herencia y el polimorfismo para crear código más organizado y reutilizable.
 
 Se realizo la refactorización del codigo presentado a continuación:
-
+````
 class Person
   def initialize(first, last, age, type)
     @first_name = first
@@ -46,3 +46,4 @@ class Person
     end
   end
 end
+```
